@@ -1,0 +1,21 @@
+{%extends 'jobs/base.html' %}
+
+{% block content %}
+<div class="gallery" id="gallery">
+        <div class="image-box">
+          {% for portfolio in portfolios.all %}
+          <div class="card">
+            <div class="mb-3 pics animation ">
+
+              <img class="bd-placeholder-img card-img-top" src="{{ portfolio.image.url }}"/>
+              <div class="card-body">
+
+                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true"></div>
+
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+{% endblock %}
