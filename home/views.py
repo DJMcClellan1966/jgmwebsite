@@ -7,4 +7,4 @@ def privacy(request):
     return render(request, 'jobs/privacy.html')
 
 def home(request):
-    return render(request, 'gallery/gallery_base.html')
+    return render(request, 'jobs/home.html')
