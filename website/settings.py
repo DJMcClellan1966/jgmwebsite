@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+GALLERY_THEME_COLOR = 'grey'
 
 # Application definition
 
